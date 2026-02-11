@@ -2,3 +2,9 @@ __pycache__/
 *.pyc
 data/
 *.pyo
+.env
+node_modules/
+artifacts/
+cache/
+coverage/
+*.log
