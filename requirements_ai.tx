@@ -1,0 +1,5 @@
+openai>=1.0.0
+anthropic>=0.8.0  # Ha Claude API-t is akarsz
+pyyaml>=6.0
+web3>=6.0.0
+python-dotenv>=1.0.0

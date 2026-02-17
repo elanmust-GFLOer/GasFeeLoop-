@@ -1,0 +1,24 @@
+eternal_return:
+  definition: "Semmi energia nem veszik el, csak átalakul"
+  blockchain_rules:
+    - id: "ER-001"
+      rule: "Burned tokens can be resurrected via DAO vote"
+      enforcement: "Check treasury balance before resurrection"
+    
+    - id: "ER-002"
+      rule: "XP reset is cyclical (every 365 days for inactive)"
+      enforcement: "Track last activity timestamp"
+
+amor_fati:
+  definition: "Accept randomness, but structure it"
+  blockchain_rules:
+    - id: "AF-001"
+      rule: "VRF randomness is embraced, not eliminated"
+      enforcement: "Validator selection uses Chainlink VRF"
+
+ubermensch:
+  definition: "Meaningful activity > mere accumulation"
+  blockchain_rules:
+    - id: "UM-001"
+      rule: "XP rewards genuine engagement, not volume"
+      enforcement: "GPT-4 semantic analysis of activity logs"

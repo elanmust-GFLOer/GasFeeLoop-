@@ -1,0 +1,10 @@
+.env
+*.key
+__pycache__/
+*.pyc
+node_modules/
+cache/
+artifacts/
+.env.local
+reformer_address.txt
+compiled_all.json
